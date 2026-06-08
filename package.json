@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-spotify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "You can use Spotify's Web API to discover music and podcasts, manage your Spotify library, control audio playback, and much more. Browse our available Web API endpoints using the sidebar at left, o..",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-spotify",
