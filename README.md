@@ -55,156 +55,21 @@ That's it. No configuration files. No code. It just works.
 
 | Resource | Operations |
 |----------|------------|
-| Albums | GET Get Several Albums
-, GET Get Album
-, GET Get Album Tracks
-, GET Get Artist's Albums
-, GET Get New Releases
-, DELETE Remove Users' Saved Albums
-, GET Get User's Saved Albums
-, PUT Save Albums for Current User
-, GET Check User's Saved Albums
- |
-| Tracks | GET Get Album Tracks
-, GET Get Artist's Top Tracks
-, GET Get Track's Audio Analysis
-, GET Get Tracks' Audio Features
-, GET Get Track's Audio Features
-, GET Get User's Top Items
-, DELETE Remove User's Saved Tracks
-, GET Get User's Saved Tracks
-, PUT Save Tracks for Current User
-, GET Check User's Saved Tracks
-, DELETE Remove Playlist Items
-, GET Get Playlist Items
-, POST Add Items to Playlist
-, PUT Update Playlist Items
-, GET Get Recommendations
-, GET Get Several Tracks
-, GET Get Track
- |
-| Artists | GET Get Several Artists
-, GET Get Artist
-, GET Get Artist's Albums
-, GET Get Artist's Related Artists
-, GET Get Artist's Top Tracks
-, DELETE Unfollow Artists or Users
-, GET Get Followed Artists
-, PUT Follow Artists or Users
-, GET Check If User Follows Artists or Users
- |
-| Audiobooks | GET Get Several Audiobooks
-, GET Get an Audiobook
-, GET Get Audiobook Chapters
-, DELETE Remove User's Saved Audiobooks
-, GET Get User's Saved Audiobooks
-, PUT Save Audiobooks for Current User
-, GET Check User's Saved Audiobooks
- |
-| Chapters | GET Get Audiobook Chapters
-, GET Get Several Chapters
-, GET Get a Chapter
- |
-| Categories | GET Get Several Browse Categories
-, GET Get Single Browse Category
-, GET Get Category's Playlists
- |
-| Playlists | GET Get Category's Playlists
-, GET Get Featured Playlists
-, GET Get Current User's Playlists
-, GET Get Playlist
-, PUT Change Playlist Details
-, DELETE Unfollow Playlist
-, PUT Follow Playlist
-, GET Check if Users Follow Playlist
-, GET Get Playlist Cover Image
-, PUT Add Custom Playlist Cover Image
-, DELETE Remove Playlist Items
-, GET Get Playlist Items
-, POST Add Items to Playlist
-, PUT Update Playlist Items
-, GET Get User's Playlists
-, POST Create Playlist
- |
-| Episodes | GET Get Several Episodes
-, GET Get Episode
-, DELETE Remove User's Saved Episodes
-, GET Get User's Saved Episodes
-, PUT Save Episodes for Current User
-, GET Check User's Saved Episodes
-, GET Get Show Episodes
- |
-| Markets | GET Get Available Markets
- |
-| Users | GET Get Current User's Profile
-, DELETE Unfollow Artists or Users
-, GET Get Followed Artists
-, PUT Follow Artists or Users
-, GET Check If User Follows Artists or Users
-, GET Get User's Top Items
-, DELETE Unfollow Playlist
-, PUT Follow Playlist
-, GET Check if Users Follow Playlist
-, GET Get User's Profile
-, GET Get User's Playlists
- |
-| Library | DELETE Remove Users' Saved Albums
-, GET Get User's Saved Albums
-, PUT Save Albums for Current User
-, GET Check User's Saved Albums
-, DELETE Remove User's Saved Audiobooks
-, GET Get User's Saved Audiobooks
-, PUT Save Audiobooks for Current User
-, GET Check User's Saved Audiobooks
-, DELETE Remove User's Saved Episodes
-, GET Get User's Saved Episodes
-, PUT Save Episodes for Current User
-, GET Check User's Saved Episodes
-, DELETE Unfollow Artists or Users
-, GET Get Followed Artists
-, PUT Follow Artists or Users
-, GET Check If User Follows Artists or Users
-, GET Get Current User's Playlists
-, DELETE Remove User's Saved Shows
-, GET Get User's Saved Shows
-, PUT Save Shows for Current User
-, GET Check User's Saved Shows
-, GET Get User's Top Items
-, DELETE Remove User's Saved Tracks
-, GET Get User's Saved Tracks
-, PUT Save Tracks for Current User
-, GET Check User's Saved Tracks
-, PUT Change Playlist Details
-, POST Create Playlist
- |
-| Player | GET Get Playback State
-, PUT Transfer Playback
-, GET Get Currently Playing Track
-, GET Get Available Devices
-, POST Skip To Next
-, PUT Pause Playback
-, PUT Start/Resume Playback
-, POST Skip To Previous
-, GET Get the User's Queue
-, POST Add Item to Playback Queue
-, GET Get Recently Played Tracks
-, PUT Set Repeat Mode
-, PUT Seek To Position
-, PUT Toggle Playback Shuffle
-, PUT Set Playback Volume
- |
-| Shows | DELETE Remove User's Saved Shows
-, GET Get User's Saved Shows
-, PUT Save Shows for Current User
-, GET Check User's Saved Shows
-, GET Get Several Shows
-, GET Get Show
-, GET Get Show Episodes
- |
-| Genres | GET Get Available Genre Seeds
- |
-| Search | GET Search for Item
- |
+| Albums | Get several albums, Get album, Get album tracks, Get artists albums, Get new releases, Delete remove users saved albums, Get users saved albums, Put save albums for current user, Get check users saved albums |
+| Tracks | Get album tracks, Get artists top tracks, Get tracks audio analysis, Get tracks audio features, Get tracks audio features, Get users top items, Delete remove users saved tracks, Get users saved tracks, Put save tracks for current user, Get check users saved tracks, Delete remove playlist items, Get playlist items, Post add items to playlist, Put update playlist items, Get recommendations, Get several tracks, Get track |
+| Artists | Get several artists, Get artist, Get artists albums, Get artists related artists, Get artists top tracks, Delete unfollow artists or users, Get followed artists, Put follow artists or users, Get check if user follows artists or users |
+| Audiobooks | Get several audiobooks, Get an audiobook, Get audiobook chapters, Delete remove users saved audiobooks, Get users saved audiobooks, Put save audiobooks for current user, Get check users saved audiobooks |
+| Chapters | Get audiobook chapters, Get several chapters, Get a chapter |
+| Categories | Get several browse categories, Get single browse category, Get categorys playlists |
+| Playlists | Get categorys playlists, Get featured playlists, Get current users playlists, Get playlist, Put change playlist details, Delete unfollow playlist, Put follow playlist, Get check if users follow playlist, Get playlist cover image, Put add custom playlist cover image, Delete remove playlist items, Get playlist items, Post add items to playlist, Put update playlist items, Get users playlists, Post create playlist |
+| Episodes | Get several episodes, Get episode, Delete remove users saved episodes, Get users saved episodes, Put save episodes for current user, Get check users saved episodes, Get show episodes |
+| Markets | Get available markets |
+| Users | Get current users profile, Delete unfollow artists or users, Get followed artists, Put follow artists or users, Get check if user follows artists or users, Get users top items, Delete unfollow playlist, Put follow playlist, Get check if users follow playlist, Get users profile, Get users playlists |
+| Library | Delete remove users saved albums, Get users saved albums, Put save albums for current user, Get check users saved albums, Delete remove users saved audiobooks, Get users saved audiobooks, Put save audiobooks for current user, Get check users saved audiobooks, Delete remove users saved episodes, Get users saved episodes, Put save episodes for current user, Get check users saved episodes, Delete unfollow artists or users, Get followed artists, Put follow artists or users, Get check if user follows artists or users, Get current users playlists, Delete remove users saved shows, Get users saved shows, Put save shows for current user, Get check users saved shows, Get users top items, Delete remove users saved tracks, Get users saved tracks, Put save tracks for current user, Get check users saved tracks, Put change playlist details, Post create playlist |
+| Player | Get playback state, Put transfer playback, Get currently playing track, Get available devices, Post skip to next, Put pause playback, Put startresume playback, Post skip to previous, Get the users queue, Post add item to playback queue, Get recently played tracks, Put set repeat mode, Put seek to position, Put toggle playback shuffle, Put set playback volume |
+| Shows | Delete remove users saved shows, Get users saved shows, Put save shows for current user, Get check users saved shows, Get several shows, Get show, Get show episodes |
+| Genres | Get available genre seeds |
+| Search | Get search for item |
 
 ---
 
