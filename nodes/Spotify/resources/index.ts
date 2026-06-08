@@ -1,0 +1,15 @@
+export { albumsDescription } from './albums';
+export { tracksDescription } from './tracks';
+export { artistsDescription } from './artists';
+export { audiobooksDescription } from './audiobooks';
+export { chaptersDescription } from './chapters';
+export { categoriesDescription } from './categories';
+export { playlistsDescription } from './playlists';
+export { episodesDescription } from './episodes';
+export { marketsDescription } from './markets';
+export { usersDescription } from './users';
+export { libraryDescription } from './library';
+export { playerDescription } from './player';
+export { showsDescription } from './shows';
+export { genresDescription } from './genres';
+export { searchDescription } from './search';

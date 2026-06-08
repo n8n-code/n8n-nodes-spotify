@@ -1,0 +1,20 @@
+{
+  "node": "N8nDevSpotify",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": [
+    "Development"
+  ],
+  "resources": {
+    "primaryDocumentation": [
+      {
+        "url": "https://github.com/n8n-code/n8n-nodes-spotify"
+      }
+    ],
+    "credentialDocumentation": [
+      {
+        "url": "https://github.com/n8n-code/n8n-nodes-spotify?tab=readme-ov-file#credentials"
+      }
+    ]
+  }
+}
