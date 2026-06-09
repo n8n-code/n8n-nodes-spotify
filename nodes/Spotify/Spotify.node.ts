@@ -23,7 +23,7 @@ export class Spotify implements INodeType {
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'You can use Spotify\'s Web API to discover music and podcasts, manage your Spotify library, control audio playback, and much more. Browse our available Web API endpoints using the sidebar at left, o..',
+		description: 'Use Spotify Web API to discover music, manage library, control playback, and more.',
 		defaults: { name: 'Spotify' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
