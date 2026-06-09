@@ -376,9 +376,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the albums. Maximum: 20 IDs.\n",
 			"default": "382ObEPsp2rxGrnsizN5TX,1A2GTWGtFfWp7KSQTwWOyo,2noRn2Aes5aoNVsU6iWThc",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the albums. Maximum: 20 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -445,9 +445,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -470,9 +470,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -495,9 +495,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -540,9 +540,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the albums. Maximum: 20 IDs.\n",
 			"default": "382ObEPsp2rxGrnsizN5TX,1A2GTWGtFfWp7KSQTwWOyo,2noRn2Aes5aoNVsU6iWThc",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the albums. Maximum: 20 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -610,9 +610,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the albums. Maximum: 20 IDs.\n",
 			"default": "382ObEPsp2rxGrnsizN5TX,1A2GTWGtFfWp7KSQTwWOyo,2noRn2Aes5aoNVsU6iWThc",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the albums. Maximum: 20 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -655,9 +655,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=18yVqkdbdRvS24c0Ilj2ci,1HGw3J3NxZO1TP1BTtVhpZ`. Maximum: 50 IDs.\n",
 			"default": "18yVqkdbdRvS24c0Ilj2ci,1HGw3J3NxZO1TP1BTtVhpZ,7iHfbu1YPACw6oZPAFJtqe",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=18yVqkdbdRvS24c0Ilj2ci,1HGw3J3NxZO1TP1BTtVhpZ`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -699,9 +699,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -724,9 +724,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -769,9 +769,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=18yVqkdbdRvS24c0Ilj2ci,1HGw3J3NxZO1TP1BTtVhpZ`. Maximum: 50 IDs.\n",
 			"default": "18yVqkdbdRvS24c0Ilj2ci,1HGw3J3NxZO1TP1BTtVhpZ,7iHfbu1YPACw6oZPAFJtqe",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=18yVqkdbdRvS24c0Ilj2ci,1HGw3J3NxZO1TP1BTtVhpZ`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -814,9 +814,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=18yVqkdbdRvS24c0Ilj2ci,1HGw3J3NxZO1TP1BTtVhpZ`. Maximum: 50 IDs.\n",
 			"default": "18yVqkdbdRvS24c0Ilj2ci,1HGw3J3NxZO1TP1BTtVhpZ,7iHfbu1YPACw6oZPAFJtqe",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=18yVqkdbdRvS24c0Ilj2ci,1HGw3J3NxZO1TP1BTtVhpZ`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -859,9 +859,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"default": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -928,9 +928,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -953,9 +953,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -978,9 +978,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1023,9 +1023,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). Maximum: 50 IDs.\n",
 			"default": "77o6BIVlYM3msb4MMIL1jH,0Q86acNRm6V9GYx55SXKwf",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1093,9 +1093,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the episodes. Maximum: 50 IDs.\n",
 			"default": "77o6BIVlYM3msb4MMIL1jH,0Q86acNRm6V9GYx55SXKwf",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the episodes. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1138,9 +1138,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Type",
 			"name": "type",
 			"required": true,
-			"description": "The ID type: either `artist` or `user`.\n",
 			"default": "artist",
 			"type": "options",
+			"description": "The ID type: either `artist` or `user`.\n",
 			"options": [
 				{
 					"name": "Artist",
@@ -1174,9 +1174,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the artist or the user [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=74ASZWbe4lXaubB36ztrGX,08td7MxkoHQkXnWAYD8d6Q`. A maximum of 50 IDs can be sent in one request.\n",
 			"default": "2CIMQHirSU0MQqyYHq0eOx,57dN52uHvrHOxijzpIgu3E,1vCWHaC5f2uS3yhpwWbIA6",
 			"type": "string",
+			"description": "A comma-separated list of the artist or the user [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=74ASZWbe4lXaubB36ztrGX,08td7MxkoHQkXnWAYD8d6Q`. A maximum of 50 IDs can be sent in one request.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1244,9 +1244,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Type",
 			"name": "type",
 			"required": true,
-			"description": "The ID type: currently only `artist` is supported.\n",
 			"default": "artist",
 			"type": "options",
+			"description": "The ID type: currently only `artist` is supported.\n",
 			"options": [
 				{
 					"name": "Artist",
@@ -1275,9 +1275,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "After",
 			"name": "after",
-			"description": "The last artist ID retrieved from the previous request.\n",
 			"default": "0I2XqVXqHScXjHhk6AYYRe",
 			"type": "string",
+			"description": "The last artist ID retrieved from the previous request.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1300,9 +1300,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20\\. Minimum: 1\\. Maximum: 50\\.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20\\. Minimum: 1\\. Maximum: 50\\.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1345,9 +1345,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Type",
 			"name": "type",
 			"required": true,
-			"description": "The ID type.\n",
 			"default": "artist",
 			"type": "options",
+			"description": "The ID type.\n",
 			"options": [
 				{
 					"name": "Artist",
@@ -1381,9 +1381,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the artist or the user [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids).\nA maximum of 50 IDs can be sent in one request.\n",
 			"default": "2CIMQHirSU0MQqyYHq0eOx,57dN52uHvrHOxijzpIgu3E,1vCWHaC5f2uS3yhpwWbIA6",
 			"type": "string",
+			"description": "A comma-separated list of the artist or the user [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids).\nA maximum of 50 IDs can be sent in one request.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1452,9 +1452,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Type",
 			"name": "type",
 			"required": true,
-			"description": "The ID type: either `artist` or `user`.\n",
 			"default": "artist",
 			"type": "options",
+			"description": "The ID type: either `artist` or `user`.\n",
 			"options": [
 				{
 					"name": "Artist",
@@ -1488,9 +1488,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the artist or the user [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) to check. For example: `ids=74ASZWbe4lXaubB36ztrGX,08td7MxkoHQkXnWAYD8d6Q`. A maximum of 50 IDs can be sent in one request.\n",
 			"default": "2CIMQHirSU0MQqyYHq0eOx,57dN52uHvrHOxijzpIgu3E,1vCWHaC5f2uS3yhpwWbIA6",
 			"type": "string",
+			"description": "A comma-separated list of the artist or the user [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) to check. For example: `ids=74ASZWbe4lXaubB36ztrGX,08td7MxkoHQkXnWAYD8d6Q`. A maximum of 50 IDs can be sent in one request.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1532,9 +1532,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1557,9 +1557,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "'The index of the first playlist to return. Default:\n0 (the first object). Maximum offset: 100.000\\. Use with `limit` to get the\nnext set of playlists.'\n",
 			"default": 5,
 			"type": "number",
+			"description": "'The index of the first playlist to return. Default:\n0 (the first object). Maximum offset: 100.000\\. Use with `limit` to get the\nnext set of playlists.'\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1602,9 +1602,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the shows. Maximum: 50 IDs.\n",
 			"default": "5CfCWKI5pZ28U0uOzXkDHe,5as3aKmN2k11yfDDDSrvaZ",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the shows. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1627,9 +1627,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1671,9 +1671,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1696,9 +1696,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1741,9 +1741,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the shows. Maximum: 50 IDs.\n",
 			"default": "5CfCWKI5pZ28U0uOzXkDHe,5as3aKmN2k11yfDDDSrvaZ",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the shows. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1786,9 +1786,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the shows. Maximum: 50 IDs.\n",
 			"default": "5CfCWKI5pZ28U0uOzXkDHe,5as3aKmN2k11yfDDDSrvaZ",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for the shows. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1831,9 +1831,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Type",
 			"name": "type",
 			"required": true,
-			"description": "The type of entity to return. Valid values: `artists` or `tracks`\n",
 			"default": "artists",
 			"type": "options",
+			"description": "The type of entity to return. Valid values: `artists` or `tracks`\n",
 			"options": [
 				{
 					"name": "Artists",
@@ -1858,9 +1858,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Time Range",
 			"name": "time_range",
-			"description": "Over what time frame the affinities are computed. Valid values: `long_term` (calculated from several years of data and including all new data as it becomes available), `medium_term` (approximately last 6 months), `short_term` (approximately last 4 weeks). Default: `medium_term`\n",
 			"default": "medium_term",
 			"type": "string",
+			"description": "Over what time frame the affinities are computed. Valid values: `long_term` (calculated from several years of data and including all new data as it becomes available), `medium_term` (approximately last 6 months), `short_term` (approximately last 4 weeks). Default: `medium_term`\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1883,9 +1883,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1908,9 +1908,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1953,9 +1953,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"default": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2022,9 +2022,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2047,9 +2047,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2072,9 +2072,9 @@ export const libraryDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2117,9 +2117,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"default": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2187,9 +2187,9 @@ export const libraryDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"default": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2229,12 +2229,12 @@ export const libraryDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -2366,12 +2366,12 @@ export const libraryDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"required": true,
-			"description": "The user's [Spotify user ID](/documentation/web-api/#spotify-uris-and-ids).\n",
 			"default": "smedjan",
 			"type": "string",
+			"description": "The user's [Spotify user ID](/documentation/web-api/#spotify-uris-and-ids).\n",
 			"displayOptions": {
 				"show": {
 					"resource": [

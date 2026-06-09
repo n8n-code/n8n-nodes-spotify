@@ -241,12 +241,12 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the album.\n",
 			"default": "4aawyAB9vmqN3uQ7FjRGTy",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the album.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -261,9 +261,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -286,9 +286,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -311,9 +311,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -353,12 +353,12 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the artist.\n",
 			"default": "0TnOYISbd1XYRBk9myaseg",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the artist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -373,9 +373,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -415,12 +415,12 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids)\nfor the track.\n",
 			"default": "11dFghVXANMlKmJXsNCbNl",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids)\nfor the track.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -455,9 +455,9 @@ export const tracksDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids)\nfor the tracks. Maximum: 100 IDs.\n",
 			"default": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids)\nfor the tracks. Maximum: 100 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -497,12 +497,12 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) for the track.\n",
 			"default": "11dFghVXANMlKmJXsNCbNl",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) for the track.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -537,9 +537,9 @@ export const tracksDescription: INodeProperties[] = [
 			"displayName": "Type",
 			"name": "type",
 			"required": true,
-			"description": "The type of entity to return. Valid values: `artists` or `tracks`\n",
 			"default": "artists",
 			"type": "options",
+			"description": "The type of entity to return. Valid values: `artists` or `tracks`\n",
 			"options": [
 				{
 					"name": "Artists",
@@ -564,9 +564,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Time Range",
 			"name": "time_range",
-			"description": "Over what time frame the affinities are computed. Valid values: `long_term` (calculated from several years of data and including all new data as it becomes available), `medium_term` (approximately last 6 months), `short_term` (approximately last 4 weeks). Default: `medium_term`\n",
 			"default": "medium_term",
 			"type": "string",
+			"description": "Over what time frame the affinities are computed. Valid values: `long_term` (calculated from several years of data and including all new data as it becomes available), `medium_term` (approximately last 6 months), `short_term` (approximately last 4 weeks). Default: `medium_term`\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -589,9 +589,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -614,9 +614,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -659,9 +659,9 @@ export const tracksDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"default": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -728,9 +728,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -753,9 +753,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -778,9 +778,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -823,9 +823,9 @@ export const tracksDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"default": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -893,9 +893,9 @@ export const tracksDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"default": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -935,12 +935,12 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -953,7 +953,7 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Snapshot Id",
+			"displayName": "Snapshot ID",
 			"name": "snapshot_id",
 			"type": "string",
 			"default": "",
@@ -1023,12 +1023,12 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1043,9 +1043,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1068,9 +1068,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Fields",
 			"name": "fields",
-			"description": "Filters for the query: a comma-separated list of the\nfields to return. If omitted, all fields are returned. For example, to get\njust the total number of items and the request limit:<br/>`fields=total,limit`<br/>A\ndot separator can be used to specify non-reoccurring fields, while parentheses\ncan be used to specify reoccurring fields within objects. For example, to\nget just the added date and user ID of the adder:<br/>`fields=items(added_at,added_by.id)`<br/>Use\nmultiple parentheses to drill down into nested objects, for example:<br/>`fields=items(track(name,href,album(name,href)))`<br/>Fields\ncan be excluded by prefixing them with an exclamation mark, for example:<br/>`fields=items.track.album(!external_urls,images)`\n",
 			"default": "items(added_by.id,track(name,href,album(name,href)))",
 			"type": "string",
+			"description": "Filters for the query: a comma-separated list of the\nfields to return. If omitted, all fields are returned. For example, to get\njust the total number of items and the request limit:<br/>`fields=total,limit`<br/>A\ndot separator can be used to specify non-reoccurring fields, while parentheses\ncan be used to specify reoccurring fields within objects. For example, to\nget just the added date and user ID of the adder:<br/>`fields=items(added_at,added_by.id)`<br/>Use\nmultiple parentheses to drill down into nested objects, for example:<br/>`fields=items(track(name,href,album(name,href)))`<br/>Fields\ncan be excluded by prefixing them with an exclamation mark, for example:<br/>`fields=items.track.album(!external_urls,images)`\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1093,9 +1093,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1118,9 +1118,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1143,9 +1143,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Additional Types",
 			"name": "additional_types",
-			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"default": "",
 			"type": "string",
+			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1185,12 +1185,12 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1205,9 +1205,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Position",
 			"name": "position",
-			"description": "The position to insert the items, a zero-based index. For example, to insert the items in the first position: `position=0`; to insert the items in the third position: `position=2`. If omitted, the items will be appended to the playlist. Items are added in the order they are listed in the query string or request body.\n",
 			"default": 0,
 			"type": "number",
+			"description": "The position to insert the items, a zero-based index. For example, to insert the items in the first position: `position=0`; to insert the items in the third position: `position=2`. If omitted, the items will be appended to the playlist. Items are added in the order they are listed in the query string or request body.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1230,9 +1230,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Uris",
 			"name": "uris",
-			"description": "A comma-separated list of [Spotify URIs](/documentation/web-api/#spotify-uris-and-ids) to add, can be track or episode URIs. For example:<br/>`uris=spotify:track:4iV5W9uYEdYUVa79Axb7Rh, spotify:track:1301WleyT98MSxVHPZCA6M, spotify:episode:512ojhOuo1ktJprKbVcKyQ`<br/>A maximum of 100 items can be added in one request. <br/>\n_**Note**: it is likely that passing a large number of item URIs as a query parameter will exceed the maximum length of the request URI. When adding a large number of items, it is recommended to pass them in the request body, see below._\n",
 			"default": "spotify:track:4iV5W9uYEdYUVa79Axb7Rh,spotify:track:1301WleyT98MSxVHPZCA6M",
 			"type": "string",
+			"description": "A comma-separated list of [Spotify URIs](/documentation/web-api/#spotify-uris-and-ids) to add, can be track or episode URIs. For example:<br/>`uris=spotify:track:4iV5W9uYEdYUVa79Axb7Rh, spotify:track:1301WleyT98MSxVHPZCA6M, spotify:episode:512ojhOuo1ktJprKbVcKyQ`<br/>A maximum of 100 items can be added in one request. <br/>\n_**Note**: it is likely that passing a large number of item URIs as a query parameter will exceed the maximum length of the request URI. When adding a large number of items, it is recommended to pass them in the request body, see below._\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1322,12 +1322,12 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1342,9 +1342,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Uris",
 			"name": "uris",
-			"description": "A comma-separated list of [Spotify URIs](/documentation/web-api/#spotify-uris-and-ids) to set, can be track or episode URIs. For example: `uris=spotify:track:4iV5W9uYEdYUVa79Axb7Rh,spotify:track:1301WleyT98MSxVHPZCA6M,spotify:episode:512ojhOuo1ktJprKbVcKyQ`<br/>A maximum of 100 items can be set in one request.\n",
 			"default": "",
 			"type": "string",
+			"description": "A comma-separated list of [Spotify URIs](/documentation/web-api/#spotify-uris-and-ids) to set, can be track or episode URIs. For example: `uris=spotify:track:4iV5W9uYEdYUVa79Axb7Rh,spotify:track:1301WleyT98MSxVHPZCA6M,spotify:episode:512ojhOuo1ktJprKbVcKyQ`<br/>A maximum of 100 items can be set in one request.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1440,7 +1440,7 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Snapshot Id",
+			"displayName": "Snapshot ID",
 			"name": "snapshot_id",
 			"type": "string",
 			"default": "",
@@ -1510,9 +1510,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The target size of the list of recommended tracks. For seeds with unusually small pools or when highly restrictive filtering is applied, it may be impossible to generate the requested number of recommended tracks. Debugging information for such cases is available in the response. Default: 20\\. Minimum: 1\\. Maximum: 100.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The target size of the list of recommended tracks. For seeds with unusually small pools or when highly restrictive filtering is applied, it may be impossible to generate the requested number of recommended tracks. Debugging information for such cases is available in the response. Default: 20\\. Minimum: 1\\. Maximum: 100.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1535,9 +1535,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1561,9 +1561,9 @@ export const tracksDescription: INodeProperties[] = [
 			"displayName": "Seed Artists",
 			"name": "seed_artists",
 			"required": true,
-			"description": "A comma separated list of [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for seed artists.  Up to 5 seed values may be provided in any combination of `seed_artists`, `seed_tracks` and `seed_genres`.\n",
 			"default": "4NHQUGzhtTLFvgF5SZesLK",
 			"type": "string",
+			"description": "A comma separated list of [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for seed artists.  Up to 5 seed values may be provided in any combination of `seed_artists`, `seed_tracks` and `seed_genres`.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1587,9 +1587,9 @@ export const tracksDescription: INodeProperties[] = [
 			"displayName": "Seed Genres",
 			"name": "seed_genres",
 			"required": true,
-			"description": "A comma separated list of any genres in the set of [available genre seeds](#available-genre-seeds).  Up to 5 seed values may be provided in any combination of `seed_artists`, `seed_tracks` and `seed_genres`.\n",
 			"default": "classical,country",
 			"type": "string",
+			"description": "A comma separated list of any genres in the set of [available genre seeds](#available-genre-seeds).  Up to 5 seed values may be provided in any combination of `seed_artists`, `seed_tracks` and `seed_genres`.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1613,9 +1613,9 @@ export const tracksDescription: INodeProperties[] = [
 			"displayName": "Seed Tracks",
 			"name": "seed_tracks",
 			"required": true,
-			"description": "A comma separated list of [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for a seed track.  Up to 5 seed values may be provided in any combination of `seed_artists`, `seed_tracks` and `seed_genres`.\n",
 			"default": "0c6xIDDpzE81m2q797ordA",
 			"type": "string",
+			"description": "A comma separated list of [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids) for a seed track.  Up to 5 seed values may be provided in any combination of `seed_artists`, `seed_tracks` and `seed_genres`.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1638,9 +1638,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Acousticness",
 			"name": "min_acousticness",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1663,9 +1663,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Acousticness",
 			"name": "max_acousticness",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1688,9 +1688,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Acousticness",
 			"name": "target_acousticness",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1713,9 +1713,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Danceability",
 			"name": "min_danceability",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1738,9 +1738,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Danceability",
 			"name": "max_danceability",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1763,9 +1763,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Danceability",
 			"name": "target_danceability",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1788,9 +1788,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Duration Ms",
 			"name": "min_duration_ms",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1813,9 +1813,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Duration Ms",
 			"name": "max_duration_ms",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1838,9 +1838,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Duration Ms",
 			"name": "target_duration_ms",
-			"description": "Target duration of the track (ms)",
 			"default": 0,
 			"type": "number",
+			"description": "Target duration of the track (ms)",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1863,9 +1863,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Energy",
 			"name": "min_energy",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1888,9 +1888,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Energy",
 			"name": "max_energy",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1913,9 +1913,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Energy",
 			"name": "target_energy",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1938,9 +1938,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Instrumentalness",
 			"name": "min_instrumentalness",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1963,9 +1963,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Instrumentalness",
 			"name": "max_instrumentalness",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1988,9 +1988,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Instrumentalness",
 			"name": "target_instrumentalness",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2013,9 +2013,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Key",
 			"name": "min_key",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2038,9 +2038,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Key",
 			"name": "max_key",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2063,9 +2063,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Key",
 			"name": "target_key",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2088,9 +2088,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Liveness",
 			"name": "min_liveness",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2113,9 +2113,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Liveness",
 			"name": "max_liveness",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2138,9 +2138,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Liveness",
 			"name": "target_liveness",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2163,9 +2163,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Loudness",
 			"name": "min_loudness",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2188,9 +2188,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Loudness",
 			"name": "max_loudness",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2213,9 +2213,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Loudness",
 			"name": "target_loudness",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2238,9 +2238,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Mode",
 			"name": "min_mode",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2263,9 +2263,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Mode",
 			"name": "max_mode",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2288,9 +2288,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Mode",
 			"name": "target_mode",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2313,9 +2313,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Popularity",
 			"name": "min_popularity",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2338,9 +2338,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Popularity",
 			"name": "max_popularity",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2363,9 +2363,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Popularity",
 			"name": "target_popularity",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2388,9 +2388,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Speechiness",
 			"name": "min_speechiness",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2413,9 +2413,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Speechiness",
 			"name": "max_speechiness",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2438,9 +2438,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Speechiness",
 			"name": "target_speechiness",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2463,9 +2463,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Tempo",
 			"name": "min_tempo",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2488,9 +2488,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Tempo",
 			"name": "max_tempo",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2513,9 +2513,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Tempo",
 			"name": "target_tempo",
-			"description": "Target tempo (BPM)",
 			"default": 0,
 			"type": "number",
+			"description": "Target tempo (BPM)",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2538,9 +2538,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Time Signature",
 			"name": "min_time_signature",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2563,9 +2563,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Time Signature",
 			"name": "max_time_signature",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2588,9 +2588,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Time Signature",
 			"name": "target_time_signature",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2613,9 +2613,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Min Valence",
 			"name": "min_valence",
-			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard floor on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `min_tempo=140` would restrict results to only those tracks with a tempo of greater than 140 beats per minute.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2638,9 +2638,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Max Valence",
 			"name": "max_valence",
-			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each tunable track attribute, a hard ceiling on the selected track attribute’s value can be provided. See tunable track attributes below for the list of available options. For example, `max_instrumentalness=0.35` would filter out most tracks that are likely to be instrumental.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2663,9 +2663,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Target Valence",
 			"name": "target_valence",
-			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"default": 0,
 			"type": "number",
+			"description": "For each of the tunable track attributes (below) a target value may be provided. Tracks with the attribute values nearest to the target values will be preferred. For example, you might request `target_energy=0.6` and `target_danceability=0.8`. All target values will be weighed equally in ranking results.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2707,9 +2707,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2733,9 +2733,9 @@ export const tracksDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"default": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=4iV5W9uYEdYUVa79Axb7Rh,1301WleyT98MSxVHPZCA6M`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -2775,12 +2775,12 @@ export const tracksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids)\nfor the track.\n",
 			"default": "11dFghVXANMlKmJXsNCbNl",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids)\nfor the track.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -2795,9 +2795,9 @@ export const tracksDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",

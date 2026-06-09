@@ -53,23 +53,230 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Albums | Get several albums, Get album, Get album tracks, Get artists albums, Get new releases, Delete remove users saved albums, Get users saved albums, Put save albums for current user, Get check users saved albums |
-| Tracks | Get album tracks, Get artists top tracks, Get tracks audio analysis, Get tracks audio features, Get tracks audio features, Get users top items, Delete remove users saved tracks, Get users saved tracks, Put save tracks for current user, Get check users saved tracks, Delete remove playlist items, Get playlist items, Post add items to playlist, Put update playlist items, Get recommendations, Get several tracks, Get track |
-| Artists | Get several artists, Get artist, Get artists albums, Get artists related artists, Get artists top tracks, Delete unfollow artists or users, Get followed artists, Put follow artists or users, Get check if user follows artists or users |
-| Audiobooks | Get several audiobooks, Get an audiobook, Get audiobook chapters, Delete remove users saved audiobooks, Get users saved audiobooks, Put save audiobooks for current user, Get check users saved audiobooks |
-| Chapters | Get audiobook chapters, Get several chapters, Get a chapter |
-| Categories | Get several browse categories, Get single browse category, Get categorys playlists |
-| Playlists | Get categorys playlists, Get featured playlists, Get current users playlists, Get playlist, Put change playlist details, Delete unfollow playlist, Put follow playlist, Get check if users follow playlist, Get playlist cover image, Put add custom playlist cover image, Delete remove playlist items, Get playlist items, Post add items to playlist, Put update playlist items, Get users playlists, Post create playlist |
-| Episodes | Get several episodes, Get episode, Delete remove users saved episodes, Get users saved episodes, Put save episodes for current user, Get check users saved episodes, Get show episodes |
-| Markets | Get available markets |
-| Users | Get current users profile, Delete unfollow artists or users, Get followed artists, Put follow artists or users, Get check if user follows artists or users, Get users top items, Delete unfollow playlist, Put follow playlist, Get check if users follow playlist, Get users profile, Get users playlists |
-| Library | Delete remove users saved albums, Get users saved albums, Put save albums for current user, Get check users saved albums, Delete remove users saved audiobooks, Get users saved audiobooks, Put save audiobooks for current user, Get check users saved audiobooks, Delete remove users saved episodes, Get users saved episodes, Put save episodes for current user, Get check users saved episodes, Delete unfollow artists or users, Get followed artists, Put follow artists or users, Get check if user follows artists or users, Get current users playlists, Delete remove users saved shows, Get users saved shows, Put save shows for current user, Get check users saved shows, Get users top items, Delete remove users saved tracks, Get users saved tracks, Put save tracks for current user, Get check users saved tracks, Put change playlist details, Post create playlist |
-| Player | Get playback state, Put transfer playback, Get currently playing track, Get available devices, Post skip to next, Put pause playback, Put startresume playback, Post skip to previous, Get the users queue, Post add item to playback queue, Get recently played tracks, Put set repeat mode, Put seek to position, Put toggle playback shuffle, Put set playback volume |
-| Shows | Delete remove users saved shows, Get users saved shows, Put save shows for current user, Get check users saved shows, Get several shows, Get show, Get show episodes |
-| Genres | Get available genre seeds |
-| Search | Get search for item |
+<details>
+<summary><b>Albums</b> (9 operations)</summary>
+
+- Get Several Albums
+- Get Album
+- Get Album Tracks
+- Get Artist s Albums
+- Get New Releases
+- Delete Remove Users Saved Albums
+- Get User s Saved Albums
+- Put Save Albums for Current User
+- Get Check User s Saved Albums
+
+</details>
+
+<details>
+<summary><b>Tracks</b> (17 operations)</summary>
+
+- Get Album Tracks
+- Get Artist s Top Tracks
+- Get Track s Audio Analysis
+- Get Tracks Audio Features
+- Get Track s Audio Features
+- Get User s Top Items
+- Delete Remove User s Saved Tracks
+- Get User s Saved Tracks
+- Put Save Tracks for Current User
+- Get Check User s Saved Tracks
+- Delete Remove Playlist Items
+- Get Playlist Items
+- Post Add Items to Playlist
+- Put Update Playlist Items
+- Get Recommendations
+- Get Several Tracks
+- Get Track
+
+</details>
+
+<details>
+<summary><b>Artists</b> (9 operations)</summary>
+
+- Get Several Artists
+- Get Artist
+- Get Artist s Albums
+- Get Artist s Related Artists
+- Get Artist s Top Tracks
+- Delete Unfollow Artists or Users
+- Get Followed Artists
+- Put Follow Artists or Users
+- Get Check If User Follows Artists or Users
+
+</details>
+
+<details>
+<summary><b>Audiobooks</b> (7 operations)</summary>
+
+- Get Several Audiobooks
+- Get an Audiobook
+- Get Audiobook Chapters
+- Delete Remove User s Saved Audiobooks
+- Get User s Saved Audiobooks
+- Put Save Audiobooks for Current User
+- Get Check User s Saved Audiobooks
+
+</details>
+
+<details>
+<summary><b>Chapters</b> (3 operations)</summary>
+
+- Get Audiobook Chapters
+- Get Several Chapters
+- Get a Chapter
+
+</details>
+
+<details>
+<summary><b>Categories</b> (3 operations)</summary>
+
+- Get Several Browse Categories
+- Get Single Browse Category
+- Get Category s Playlists
+
+</details>
+
+<details>
+<summary><b>Playlists</b> (16 operations)</summary>
+
+- Get Category s Playlists
+- Get Featured Playlists
+- Get Current User s Playlists
+- Get Playlist
+- Put Change Playlist Details
+- Delete Unfollow Playlist
+- Put Follow Playlist
+- Get Check if Users Follow Playlist
+- Get Playlist Cover Image
+- Put Add Custom Playlist Cover Image
+- Delete Remove Playlist Items
+- Get Playlist Items
+- Post Add Items to Playlist
+- Put Update Playlist Items
+- Get User s Playlists
+- Post Create Playlist
+
+</details>
+
+<details>
+<summary><b>Episodes</b> (7 operations)</summary>
+
+- Get Several Episodes
+- Get Episode
+- Delete Remove User s Saved Episodes
+- Get User s Saved Episodes
+- Put Save Episodes for Current User
+- Get Check User s Saved Episodes
+- Get Show Episodes
+
+</details>
+
+<details>
+<summary><b>Markets</b> (1 operations)</summary>
+
+- Get Available Markets
+
+</details>
+
+<details>
+<summary><b>Users</b> (11 operations)</summary>
+
+- Get Current User s Profile
+- Delete Unfollow Artists or Users
+- Get Followed Artists
+- Put Follow Artists or Users
+- Get Check If User Follows Artists or Users
+- Get User s Top Items
+- Delete Unfollow Playlist
+- Put Follow Playlist
+- Get Check if Users Follow Playlist
+- Get User s Profile
+- Get User s Playlists
+
+</details>
+
+<details>
+<summary><b>Library</b> (28 operations)</summary>
+
+- Delete Remove Users Saved Albums
+- Get User s Saved Albums
+- Put Save Albums for Current User
+- Get Check User s Saved Albums
+- Delete Remove User s Saved Audiobooks
+- Get User s Saved Audiobooks
+- Put Save Audiobooks for Current User
+- Get Check User s Saved Audiobooks
+- Delete Remove User s Saved Episodes
+- Get User s Saved Episodes
+- Put Save Episodes for Current User
+- Get Check User s Saved Episodes
+- Delete Unfollow Artists or Users
+- Get Followed Artists
+- Put Follow Artists or Users
+- Get Check If User Follows Artists or Users
+- Get Current User s Playlists
+- Delete Remove User s Saved Shows
+- Get User s Saved Shows
+- Put Save Shows for Current User
+- Get Check User s Saved Shows
+- Get User s Top Items
+- Delete Remove User s Saved Tracks
+- Get User s Saved Tracks
+- Put Save Tracks for Current User
+- Get Check User s Saved Tracks
+- Put Change Playlist Details
+- Post Create Playlist
+
+</details>
+
+<details>
+<summary><b>Player</b> (15 operations)</summary>
+
+- Get Playback State
+- Put Transfer Playback
+- Get Currently Playing Track
+- Get Available Devices
+- Post Skip To Next
+- Put Pause Playback
+- Put Start Resume Playback
+- Post Skip To Previous
+- Get the User s Queue
+- Post Add Item to Playback Queue
+- Get Recently Played Tracks
+- Put Set Repeat Mode
+- Put Seek To Position
+- Put Toggle Playback Shuffle
+- Put Set Playback Volume
+
+</details>
+
+<details>
+<summary><b>Shows</b> (7 operations)</summary>
+
+- Delete Remove User s Saved Shows
+- Get User s Saved Shows
+- Put Save Shows for Current User
+- Get Check User s Saved Shows
+- Get Several Shows
+- Get Show
+- Get Show Episodes
+
+</details>
+
+<details>
+<summary><b>Genres</b> (1 operations)</summary>
+
+- Get Available Genre Seeds
+
+</details>
+
+<details>
+<summary><b>Search</b> (1 operations)</summary>
+
+- Get Search for Item
+
+</details>
 
 ---
 

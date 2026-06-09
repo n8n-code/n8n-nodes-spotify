@@ -75,9 +75,9 @@ export const categoriesDescription: INodeProperties[] = [
 		{
 			"displayName": "Country",
 			"name": "country",
-			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter if you want to narrow the list of returned categories to those relevant to a particular country. If omitted, the returned items will be globally relevant.\n",
 			"default": "SE",
 			"type": "string",
+			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter if you want to narrow the list of returned categories to those relevant to a particular country. If omitted, the returned items will be globally relevant.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -100,9 +100,9 @@ export const categoriesDescription: INodeProperties[] = [
 		{
 			"displayName": "Locale",
 			"name": "locale",
-			"description": "The desired language, consisting of an [ISO 639-1](http://en.wikipedia.org/wiki/ISO_639-1) language code and an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), joined by an underscore. For example: `es_MX`, meaning \"Spanish (Mexico)\". Provide this parameter if you want the category metadata returned in a particular language. <br/>\n_**Note**: if `locale` is not supplied, or if the specified language is not available, all strings will be returned in the Spotify default language (American English). The `locale` parameter, combined with the `country` parameter, may give odd results if not carefully matched. For example `country=SE&locale=de_DE` will return a list of categories relevant to Sweden but as German language strings._\n",
 			"default": "sv_SE",
 			"type": "string",
+			"description": "The desired language, consisting of an [ISO 639-1](http://en.wikipedia.org/wiki/ISO_639-1) language code and an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), joined by an underscore. For example: `es_MX`, meaning \"Spanish (Mexico)\". Provide this parameter if you want the category metadata returned in a particular language. <br/>\n_**Note**: if `locale` is not supplied, or if the specified language is not available, all strings will be returned in the Spotify default language (American English). The `locale` parameter, combined with the `country` parameter, may give odd results if not carefully matched. For example `country=SE&locale=de_DE` will return a list of categories relevant to Sweden but as German language strings._\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -125,9 +125,9 @@ export const categoriesDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -150,9 +150,9 @@ export const categoriesDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -192,12 +192,12 @@ export const categoriesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Category Id",
+			"displayName": "Category ID",
 			"name": "category_id",
 			"required": true,
-			"description": "The [Spotify category ID](/documentation/web-api/#spotify-uris-and-ids) for the category.\n",
 			"default": "dinner",
 			"type": "string",
+			"description": "The [Spotify category ID](/documentation/web-api/#spotify-uris-and-ids) for the category.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -212,9 +212,9 @@ export const categoriesDescription: INodeProperties[] = [
 		{
 			"displayName": "Country",
 			"name": "country",
-			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter to ensure that the category exists for a particular country.\n",
 			"default": "SE",
 			"type": "string",
+			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter to ensure that the category exists for a particular country.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -237,9 +237,9 @@ export const categoriesDescription: INodeProperties[] = [
 		{
 			"displayName": "Locale",
 			"name": "locale",
-			"description": "The desired language, consisting of an [ISO 639-1](http://en.wikipedia.org/wiki/ISO_639-1) language code and an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), joined by an underscore. For example: `es_MX`, meaning &quot;Spanish (Mexico)&quot;. Provide this parameter if you want the category strings returned in a particular language.<br/> _**Note**: if `locale` is not supplied, or if the specified language is not available, the category strings returned will be in the Spotify default language (American English)._\n",
 			"default": "sv_SE",
 			"type": "string",
+			"description": "The desired language, consisting of an [ISO 639-1](http://en.wikipedia.org/wiki/ISO_639-1) language code and an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), joined by an underscore. For example: `es_MX`, meaning &quot;Spanish (Mexico)&quot;. Provide this parameter if you want the category strings returned in a particular language.<br/> _**Note**: if `locale` is not supplied, or if the specified language is not available, the category strings returned will be in the Spotify default language (American English)._\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -279,12 +279,12 @@ export const categoriesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Category Id",
+			"displayName": "Category ID",
 			"name": "category_id",
 			"required": true,
-			"description": "The [Spotify category ID](/documentation/web-api/#spotify-uris-and-ids) for the category.\n",
 			"default": "dinner",
 			"type": "string",
+			"description": "The [Spotify category ID](/documentation/web-api/#spotify-uris-and-ids) for the category.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -299,9 +299,9 @@ export const categoriesDescription: INodeProperties[] = [
 		{
 			"displayName": "Country",
 			"name": "country",
-			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter to ensure that the category exists for a particular country.\n",
 			"default": "SE",
 			"type": "string",
+			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter to ensure that the category exists for a particular country.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -324,9 +324,9 @@ export const categoriesDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -349,9 +349,9 @@ export const categoriesDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",

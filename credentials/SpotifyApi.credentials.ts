@@ -8,7 +8,7 @@ import type {
 export class SpotifyApi implements ICredentialType {
 	name = 'N8nDevSpotifyApi';
 
-	displayName = 'spotify API';
+	displayName = 'Spotify API';
 
 	icon: Icon = { light: 'file:../nodes/Spotify/spotify.png', dark: 'file:../nodes/Spotify/spotify.dark.png' };
 
@@ -22,7 +22,7 @@ export class SpotifyApi implements ICredentialType {
 			default: 'https://api.spotify.com/v1',
 			required: true,
 			placeholder: 'https://api.spotify.com/v1',
-			description: 'The base URL of your spotify API server',
+			description: 'The base URL of your Spotify API server',
 		},
 		{
 			displayName: 'API Key',

@@ -73,12 +73,12 @@ export const chaptersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids)\nfor the audiobook.\n",
 			"default": "7iHfbu1YPACw6oZPAFJtqe",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids)\nfor the audiobook.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -93,9 +93,9 @@ export const chaptersDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -118,9 +118,9 @@ export const chaptersDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -143,9 +143,9 @@ export const chaptersDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -188,9 +188,9 @@ export const chaptersDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=0IsXVP0JmcB2adSE338GkK,3ZXb8FKZGU0EHALYX6uCzU`. Maximum: 50 IDs.\n",
 			"default": "0IsXVP0JmcB2adSE338GkK,3ZXb8FKZGU0EHALYX6uCzU,0D5wENdkdwbqlrHoaJ9g29",
 			"type": "string",
+			"description": "A comma-separated list of the [Spotify IDs](/documentation/web-api/#spotify-uris-and-ids). For example: `ids=0IsXVP0JmcB2adSE338GkK,3ZXb8FKZGU0EHALYX6uCzU`. Maximum: 50 IDs.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -213,9 +213,9 @@ export const chaptersDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -255,12 +255,12 @@ export const chaptersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids)\nfor the chapter.\n",
 			"default": "0D5wENdkdwbqlrHoaJ9g29",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids)\nfor the chapter.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -275,9 +275,9 @@ export const chaptersDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",

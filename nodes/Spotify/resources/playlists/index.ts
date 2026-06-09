@@ -229,12 +229,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Category Id",
+			"displayName": "Category ID",
 			"name": "category_id",
 			"required": true,
-			"description": "The [Spotify category ID](/documentation/web-api/#spotify-uris-and-ids) for the category.\n",
 			"default": "dinner",
 			"type": "string",
+			"description": "The [Spotify category ID](/documentation/web-api/#spotify-uris-and-ids) for the category.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -249,9 +249,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Country",
 			"name": "country",
-			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter to ensure that the category exists for a particular country.\n",
 			"default": "SE",
 			"type": "string",
+			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter to ensure that the category exists for a particular country.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -274,9 +274,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -299,9 +299,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -343,9 +343,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Country",
 			"name": "country",
-			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter if you want the list of returned items to be relevant to a particular country. If omitted, the returned items will be relevant to all countries.\n",
 			"default": "SE",
 			"type": "string",
+			"description": "A country: an [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). Provide this parameter if you want the list of returned items to be relevant to a particular country. If omitted, the returned items will be relevant to all countries.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -368,9 +368,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Locale",
 			"name": "locale",
-			"description": "The desired language, consisting of a lowercase [ISO 639-1 language code](http://en.wikipedia.org/wiki/ISO_639-1) and an uppercase [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), joined by an underscore. For example: `es_MX`, meaning \"Spanish (Mexico)\". Provide this parameter if you want the results returned in a particular language (where available). <br/>\n_**Note**: if `locale` is not supplied, or if the specified language is not available, all strings will be returned in the Spotify default language (American English). The `locale` parameter, combined with the `country` parameter, may give odd results if not carefully matched. For example `country=SE&locale=de_DE` will return a list of categories relevant to Sweden but as German language strings._\n",
 			"default": "sv_SE",
 			"type": "string",
+			"description": "The desired language, consisting of a lowercase [ISO 639-1 language code](http://en.wikipedia.org/wiki/ISO_639-1) and an uppercase [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), joined by an underscore. For example: `es_MX`, meaning \"Spanish (Mexico)\". Provide this parameter if you want the results returned in a particular language (where available). <br/>\n_**Note**: if `locale` is not supplied, or if the specified language is not available, all strings will be returned in the Spotify default language (American English). The `locale` parameter, combined with the `country` parameter, may give odd results if not carefully matched. For example `country=SE&locale=de_DE` will return a list of categories relevant to Sweden but as German language strings._\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -393,9 +393,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Timestamp",
 			"name": "timestamp",
-			"description": "A timestamp in [ISO 8601 format](http://en.wikipedia.org/wiki/ISO_8601): `yyyy-MM-ddTHH:mm:ss`. Use this parameter to specify the user's local time to get results tailored for that specific date and time in the day. If not provided, the response defaults to the current UTC time. Example: \"2014-10-23T09:00:00\" for a user whose local time is 9AM. If there were no featured playlists (or there is no data) at the specified time, the response will revert to the current UTC time.\n",
 			"default": "2014-10-23T09:00:00",
 			"type": "string",
+			"description": "A timestamp in [ISO 8601 format](http://en.wikipedia.org/wiki/ISO_8601): `yyyy-MM-ddTHH:mm:ss`. Use this parameter to specify the user's local time to get results tailored for that specific date and time in the day. If not provided, the response defaults to the current UTC time. Example: \"2014-10-23T09:00:00\" for a user whose local time is 9AM. If there were no featured playlists (or there is no data) at the specified time, the response will revert to the current UTC time.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -418,9 +418,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -443,9 +443,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -487,9 +487,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -512,9 +512,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "'The index of the first playlist to return. Default:\n0 (the first object). Maximum offset: 100.000\\. Use with `limit` to get the\nnext set of playlists.'\n",
 			"default": 5,
 			"type": "number",
+			"description": "'The index of the first playlist to return. Default:\n0 (the first object). Maximum offset: 100.000\\. Use with `limit` to get the\nnext set of playlists.'\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -554,12 +554,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -574,9 +574,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -599,9 +599,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Fields",
 			"name": "fields",
-			"description": "Filters for the query: a comma-separated list of the\nfields to return. If omitted, all fields are returned. For example, to get\njust the playlist''s description and URI: `fields=description,uri`. A dot\nseparator can be used to specify non-reoccurring fields, while parentheses\ncan be used to specify reoccurring fields within objects. For example, to\nget just the added date and user ID of the adder: `fields=tracks.items(added_at,added_by.id)`.\nUse multiple parentheses to drill down into nested objects, for example: `fields=tracks.items(track(name,href,album(name,href)))`.\nFields can be excluded by prefixing them with an exclamation mark, for example:\n`fields=tracks.items(track(name,href,album(!name,href)))`\n",
 			"default": "items(added_by.id,track(name,href,album(name,href)))",
 			"type": "string",
+			"description": "Filters for the query: a comma-separated list of the\nfields to return. If omitted, all fields are returned. For example, to get\njust the playlist''s description and URI: `fields=description,uri`. A dot\nseparator can be used to specify non-reoccurring fields, while parentheses\ncan be used to specify reoccurring fields within objects. For example, to\nget just the added date and user ID of the adder: `fields=tracks.items(added_at,added_by.id)`.\nUse multiple parentheses to drill down into nested objects, for example: `fields=tracks.items(track(name,href,album(name,href)))`.\nFields can be excluded by prefixing them with an exclamation mark, for example:\n`fields=tracks.items(track(name,href,album(!name,href)))`\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -624,9 +624,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Additional Types",
 			"name": "additional_types",
-			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"default": "",
 			"type": "string",
+			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -666,12 +666,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -803,12 +803,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -840,12 +840,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -902,12 +902,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -923,9 +923,9 @@ export const playlistsDescription: INodeProperties[] = [
 			"displayName": "Ids",
 			"name": "ids",
 			"required": true,
-			"description": "A comma-separated list of [Spotify User IDs](/documentation/web-api/#spotify-uris-and-ids) ; the ids of the users that you want to check to see if they follow the playlist. Maximum: 5 ids.\n",
 			"default": "jmperezperez,thelinmichael,wizzler",
 			"type": "string",
+			"description": "A comma-separated list of [Spotify User IDs](/documentation/web-api/#spotify-uris-and-ids) ; the ids of the users that you want to check to see if they follow the playlist. Maximum: 5 ids.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -965,12 +965,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1002,12 +1002,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1039,12 +1039,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1057,7 +1057,7 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Snapshot Id",
+			"displayName": "Snapshot ID",
 			"name": "snapshot_id",
 			"type": "string",
 			"default": "",
@@ -1127,12 +1127,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1147,9 +1147,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1172,9 +1172,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Fields",
 			"name": "fields",
-			"description": "Filters for the query: a comma-separated list of the\nfields to return. If omitted, all fields are returned. For example, to get\njust the total number of items and the request limit:<br/>`fields=total,limit`<br/>A\ndot separator can be used to specify non-reoccurring fields, while parentheses\ncan be used to specify reoccurring fields within objects. For example, to\nget just the added date and user ID of the adder:<br/>`fields=items(added_at,added_by.id)`<br/>Use\nmultiple parentheses to drill down into nested objects, for example:<br/>`fields=items(track(name,href,album(name,href)))`<br/>Fields\ncan be excluded by prefixing them with an exclamation mark, for example:<br/>`fields=items.track.album(!external_urls,images)`\n",
 			"default": "items(added_by.id,track(name,href,album(name,href)))",
 			"type": "string",
+			"description": "Filters for the query: a comma-separated list of the\nfields to return. If omitted, all fields are returned. For example, to get\njust the total number of items and the request limit:<br/>`fields=total,limit`<br/>A\ndot separator can be used to specify non-reoccurring fields, while parentheses\ncan be used to specify reoccurring fields within objects. For example, to\nget just the added date and user ID of the adder:<br/>`fields=items(added_at,added_by.id)`<br/>Use\nmultiple parentheses to drill down into nested objects, for example:<br/>`fields=items(track(name,href,album(name,href)))`<br/>Fields\ncan be excluded by prefixing them with an exclamation mark, for example:<br/>`fields=items.track.album(!external_urls,images)`\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1197,9 +1197,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1222,9 +1222,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first item to return. Default: 0 (the first item). Use with limit to get the next set of items.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1247,9 +1247,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Additional Types",
 			"name": "additional_types",
-			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"default": "",
 			"type": "string",
+			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1289,12 +1289,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1309,9 +1309,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Position",
 			"name": "position",
-			"description": "The position to insert the items, a zero-based index. For example, to insert the items in the first position: `position=0`; to insert the items in the third position: `position=2`. If omitted, the items will be appended to the playlist. Items are added in the order they are listed in the query string or request body.\n",
 			"default": 0,
 			"type": "number",
+			"description": "The position to insert the items, a zero-based index. For example, to insert the items in the first position: `position=0`; to insert the items in the third position: `position=2`. If omitted, the items will be appended to the playlist. Items are added in the order they are listed in the query string or request body.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1334,9 +1334,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Uris",
 			"name": "uris",
-			"description": "A comma-separated list of [Spotify URIs](/documentation/web-api/#spotify-uris-and-ids) to add, can be track or episode URIs. For example:<br/>`uris=spotify:track:4iV5W9uYEdYUVa79Axb7Rh, spotify:track:1301WleyT98MSxVHPZCA6M, spotify:episode:512ojhOuo1ktJprKbVcKyQ`<br/>A maximum of 100 items can be added in one request. <br/>\n_**Note**: it is likely that passing a large number of item URIs as a query parameter will exceed the maximum length of the request URI. When adding a large number of items, it is recommended to pass them in the request body, see below._\n",
 			"default": "spotify:track:4iV5W9uYEdYUVa79Axb7Rh,spotify:track:1301WleyT98MSxVHPZCA6M",
 			"type": "string",
+			"description": "A comma-separated list of [Spotify URIs](/documentation/web-api/#spotify-uris-and-ids) to add, can be track or episode URIs. For example:<br/>`uris=spotify:track:4iV5W9uYEdYUVa79Axb7Rh, spotify:track:1301WleyT98MSxVHPZCA6M, spotify:episode:512ojhOuo1ktJprKbVcKyQ`<br/>A maximum of 100 items can be added in one request. <br/>\n_**Note**: it is likely that passing a large number of item URIs as a query parameter will exceed the maximum length of the request URI. When adding a large number of items, it is recommended to pass them in the request body, see below._\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1426,12 +1426,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Playlist Id",
+			"displayName": "Playlist ID",
 			"name": "playlist_id",
 			"required": true,
-			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"default": "3cEYpjA9oz9GiPac4AsH4n",
 			"type": "string",
+			"description": "The [Spotify ID](/documentation/web-api/#spotify-uris-and-ids) of the playlist.\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1446,9 +1446,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Uris",
 			"name": "uris",
-			"description": "A comma-separated list of [Spotify URIs](/documentation/web-api/#spotify-uris-and-ids) to set, can be track or episode URIs. For example: `uris=spotify:track:4iV5W9uYEdYUVa79Axb7Rh,spotify:track:1301WleyT98MSxVHPZCA6M,spotify:episode:512ojhOuo1ktJprKbVcKyQ`<br/>A maximum of 100 items can be set in one request.\n",
 			"default": "",
 			"type": "string",
+			"description": "A comma-separated list of [Spotify URIs](/documentation/web-api/#spotify-uris-and-ids) to set, can be track or episode URIs. For example: `uris=spotify:track:4iV5W9uYEdYUVa79Axb7Rh,spotify:track:1301WleyT98MSxVHPZCA6M,spotify:episode:512ojhOuo1ktJprKbVcKyQ`<br/>A maximum of 100 items can be set in one request.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1544,7 +1544,7 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Snapshot Id",
+			"displayName": "Snapshot ID",
 			"name": "snapshot_id",
 			"type": "string",
 			"default": "",
@@ -1612,12 +1612,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"required": true,
-			"description": "The user's [Spotify user ID](/documentation/web-api/#spotify-uris-and-ids).\n",
 			"default": "smedjan",
 			"type": "string",
+			"description": "The user's [Spotify user ID](/documentation/web-api/#spotify-uris-and-ids).\n",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -1632,9 +1632,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1657,9 +1657,9 @@ export const playlistsDescription: INodeProperties[] = [
 		{
 			"displayName": "Offset",
 			"name": "offset",
-			"description": "The index of the first playlist to return. Default:\n0 (the first object). Maximum offset: 100.000\\. Use with `limit` to get the\nnext set of playlists.\n",
 			"default": 5,
 			"type": "number",
+			"description": "The index of the first playlist to return. Default:\n0 (the first object). Maximum offset: 100.000\\. Use with `limit` to get the\nnext set of playlists.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1699,12 +1699,12 @@ export const playlistsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "user_id",
 			"required": true,
-			"description": "The user's [Spotify user ID](/documentation/web-api/#spotify-uris-and-ids).\n",
 			"default": "smedjan",
 			"type": "string",
+			"description": "The user's [Spotify user ID](/documentation/web-api/#spotify-uris-and-ids).\n",
 			"displayOptions": {
 				"show": {
 					"resource": [

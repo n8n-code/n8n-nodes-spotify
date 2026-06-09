@@ -219,9 +219,9 @@ export const playerDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -244,9 +244,9 @@ export const playerDescription: INodeProperties[] = [
 		{
 			"displayName": "Additional Types",
 			"name": "additional_types",
-			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"default": "",
 			"type": "string",
+			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -358,9 +358,9 @@ export const playerDescription: INodeProperties[] = [
 		{
 			"displayName": "Market",
 			"name": "market",
-			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"default": "ES",
 			"type": "string",
+			"description": "An [ISO 3166-1 alpha-2 country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).\n  If a country code is specified, only content that is available in that market will be returned.<br/>\n  If a valid user access token is specified in the request header, the country associated with\n  the user account will take priority over this parameter.<br/>\n  _**Note**: If neither market or user country are provided, the content is considered unavailable for the client._<br/>\n  Users can view the country that is associated with their account in the [account settings](https://www.spotify.com/se/account/overview/).\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -383,9 +383,9 @@ export const playerDescription: INodeProperties[] = [
 		{
 			"displayName": "Additional Types",
 			"name": "additional_types",
-			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"default": "",
 			"type": "string",
+			"description": "A comma-separated list of item types that your client supports besides the default `track` type. Valid types are: `track` and `episode`.<br/>\n_**Note**: This parameter was introduced to allow existing clients to maintain their current behaviour and might be deprecated in the future._<br/>\nIn addition to providing this parameter, make sure that your client properly handles cases of new types in the future by checking against the `type` field of each object.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -444,11 +444,11 @@ export const playerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
-			"description": "The id of the device this command is targeting. If not supplied, the user's currently active device is the target.",
 			"default": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
 			"type": "string",
+			"description": "The id of the device this command is targeting. If not supplied, the user's currently active device is the target.",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -488,11 +488,11 @@ export const playerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
-			"description": "The id of the device this command is targeting. If not supplied, the user's currently active device is the target.\n",
 			"default": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
 			"type": "string",
+			"description": "The id of the device this command is targeting. If not supplied, the user's currently active device is the target.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -532,11 +532,11 @@ export const playerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
-			"description": "The id of the device this command is targeting. If not supplied, the user's currently active device is the target.",
 			"default": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
 			"type": "string",
+			"description": "The id of the device this command is targeting. If not supplied, the user's currently active device is the target.",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -676,11 +676,11 @@ export const playerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
-			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"default": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
 			"type": "string",
+			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -742,9 +742,9 @@ export const playerDescription: INodeProperties[] = [
 			"displayName": "Uri",
 			"name": "uri",
 			"required": true,
-			"description": "The uri of the item to add to the queue. Must be a track or an episode uri.\n",
 			"default": "spotify:track:4iV5W9uYEdYUVa79Axb7Rh",
 			"type": "string",
+			"description": "The uri of the item to add to the queue. Must be a track or an episode uri.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -765,11 +765,11 @@ export const playerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
-			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"default": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
 			"type": "string",
+			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -811,9 +811,9 @@ export const playerDescription: INodeProperties[] = [
 		{
 			"displayName": "Limit",
 			"name": "limit",
-			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"default": 10,
 			"type": "number",
+			"description": "The maximum number of items to return. Default: 20. Minimum: 1. Maximum: 50.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -836,9 +836,9 @@ export const playerDescription: INodeProperties[] = [
 		{
 			"displayName": "After",
 			"name": "after",
-			"description": "A Unix timestamp in milliseconds. Returns all items\nafter (but not including) this cursor position. If `after` is specified, `before`\nmust not be specified.\n",
 			"default": 1484811043508,
 			"type": "number",
+			"description": "A Unix timestamp in milliseconds. Returns all items\nafter (but not including) this cursor position. If `after` is specified, `before`\nmust not be specified.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -861,9 +861,9 @@ export const playerDescription: INodeProperties[] = [
 		{
 			"displayName": "Before",
 			"name": "before",
-			"description": "A Unix timestamp in milliseconds. Returns all items\nbefore (but not including) this cursor position. If `before` is specified,\n`after` must not be specified.\n",
 			"default": 0,
 			"type": "number",
+			"description": "A Unix timestamp in milliseconds. Returns all items\nbefore (but not including) this cursor position. If `before` is specified,\n`after` must not be specified.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -906,9 +906,9 @@ export const playerDescription: INodeProperties[] = [
 			"displayName": "State",
 			"name": "state",
 			"required": true,
-			"description": "**track**, **context** or **off**.<br/>\n**track** will repeat the current track.<br/>\n**context** will repeat the current context.<br/>\n**off** will turn repeat off.\n",
 			"default": "context",
 			"type": "string",
+			"description": "**track**, **context** or **off**.<br/>\n**track** will repeat the current track.<br/>\n**context** will repeat the current context.<br/>\n**off** will turn repeat off.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -929,11 +929,11 @@ export const playerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
-			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"default": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
 			"type": "string",
+			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -976,9 +976,9 @@ export const playerDescription: INodeProperties[] = [
 			"displayName": "Position Ms",
 			"name": "position_ms",
 			"required": true,
-			"description": "The position in milliseconds to seek to. Must be a\npositive number. Passing in a position that is greater than the length of\nthe track will cause the player to start playing the next song.\n",
 			"default": 25000,
 			"type": "number",
+			"description": "The position in milliseconds to seek to. Must be a\npositive number. Passing in a position that is greater than the length of\nthe track will cause the player to start playing the next song.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -999,11 +999,11 @@ export const playerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
-			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"default": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
 			"type": "string",
+			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1046,9 +1046,9 @@ export const playerDescription: INodeProperties[] = [
 			"displayName": "State",
 			"name": "state",
 			"required": true,
-			"description": "**true** : Shuffle user's playback.<br/>\n**false** : Do not shuffle user's playback.\n",
 			"default": true,
 			"type": "boolean",
+			"description": "**true** : Shuffle user's playback.<br/>\n**false** : Do not shuffle user's playback.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1069,11 +1069,11 @@ export const playerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
-			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"default": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
 			"type": "string",
+			"description": "The id of the device this command is targeting. If\nnot supplied, the user's currently active device is the target.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1116,9 +1116,9 @@ export const playerDescription: INodeProperties[] = [
 			"displayName": "Volume Percent",
 			"name": "volume_percent",
 			"required": true,
-			"description": "The volume to set. Must be a value from 0 to 100 inclusive.\n",
 			"default": 50,
 			"type": "number",
+			"description": "The volume to set. Must be a value from 0 to 100 inclusive.\n",
 			"routing": {
 				"send": {
 					"type": "query",
@@ -1139,11 +1139,11 @@ export const playerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "device_id",
-			"description": "The id of the device this command is targeting. If not supplied, the user's currently active device is the target.\n",
 			"default": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
 			"type": "string",
+			"description": "The id of the device this command is targeting. If not supplied, the user's currently active device is the target.\n",
 			"routing": {
 				"send": {
 					"type": "query",
